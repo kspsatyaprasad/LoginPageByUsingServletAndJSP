@@ -10,7 +10,8 @@
 THIS IS VIDEOS PAGE
      <%
          response.setHeader("Cache-Control","no-cache,no-store,must-revalidate");
-		 if(session.getAttribute("username")==null)
+		 response.setHeader("Pragma","no-cache"); // for older versions of HTTP 1.0         
+		 response.setHeader("Expires","0");  //if using Proxies		 if(session.getAttribute("username")==null)
 		    {
 		       response.sendRedirect("login.jsp");
 		    }
