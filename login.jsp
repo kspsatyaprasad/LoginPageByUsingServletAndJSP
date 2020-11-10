@@ -9,7 +9,10 @@
 <body>
 
 	 <form 
-            THIS IS LOGIN PAGE
+		    action="Login" method="post">
+		    Enter username : <input type="text" name="uname"><br>
+		    Enter password : <input type="password" name="pass"><br>
+		    <input type="submit" value="login">
 	</form>
 </body>
 </html>   
