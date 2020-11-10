@@ -18,6 +18,8 @@ public class Login extends HttpServlet {
 
       if(uname.equals("bridgelabz") && pass.equals("bridgelabz"))
         {
+        	HttpSession session = request.getSession();
+        	session.setAttribute("username", "uname");
         	response.sendRedirect("welcome.jsp");
         }
         else
