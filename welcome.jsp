@@ -15,7 +15,7 @@
              }
          
      %>
-WELCOME TO WELCOME PAGE
+Dear ${username} WELCOME TO WELCOME PAGE
 
 </body>
 </html>
