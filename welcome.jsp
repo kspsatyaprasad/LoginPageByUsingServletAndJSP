@@ -15,7 +15,8 @@
              }
          
      %>
-Dear ${username} WELCOME TO WELCOME PAGE
+    Dear ${username} WELCOME TO WELCOME PAGE
+    <a href = "videos.jsp">Videos here </a>
 
 </body>
 </html>
